@@ -10,9 +10,11 @@ def spicy_food(spice_arr, price_arr)
         else
             no_spice += price_arr[i]
         end
-
+        i+=1
 
     end
+    spice= spice + (no_spice/2.0)
+    no_spice = no_spice/2.0
     new_arr.push(spice)
     new_arr.push(no_spice)
     return new_arr
