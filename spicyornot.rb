@@ -1,3 +1,4 @@
+
 # It's Sunday, and it's time for Thai. You love spicy food, but your friend does not. 
 #You will be given two ordered arrays. One array, will have 'S' and 'N' (where S means 
 #spicy and N means not spicy). The other array will be the price of the dish. The 
@@ -29,7 +30,7 @@ def spicy_food(spice_arr, price_arr)
     no_spice = no_spice/2.0 # Money owed by person who does not eat spicy food
     new_arr.push(spice)
     new_arr.push(no_spice)
-    return new_arrm #returns array with money owed by each party
+    return new_arr #returns array with money owed by each party
 
 end
 
